@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "MemoryAndGC": {
+      "commandName": "Project"
+    },
+    "MemoryAndGC-WithGcLog": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_GCLogFile": "MemoryAndGC.gc.log",
+        "DOTNET_gcLogFileSize": "10M"
+      }
+    }
+  }
+}
